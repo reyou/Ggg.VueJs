@@ -3,15 +3,19 @@
     <img src="./assets/logo.png">
     <router-view/>
     <test msg="Message from App.vue"></test>
+    <hr>
+    <users></users>
   </div>
 </template>
 
 <script>
 import Test from "./components/test";
+import Users from "./components/users";
 export default {
   name: "App",
   components: {
-    Test
+    Test,
+    Users
   }
 };
 </script>

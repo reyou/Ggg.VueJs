@@ -7,3 +7,8 @@ $ cd vueapp
 $ npm run dev
 ```
 ***
+```
+$ npm i vue-resource --save
+$ npm i vue-router --save
+```
+***
