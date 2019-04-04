@@ -9,3 +9,16 @@ throughout this book.
 ```
 $ npm install --global @vue/cli
 ```
+
+### Run App
+
+```
+$ npm run json
+$ npm run serve
+```
+
+### Copy Folder
+
+```
+$ Copy-Item "qqq\*" -Destination "www" -Recurse -Force
+```
